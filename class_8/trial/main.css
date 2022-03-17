@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.container{
+    background-color: rgba(0, 0, 0, 0.712);
+    width: 1200px;
+    height: 1000px;
+    margin: 30px;
+    border: 2px double coral;
+    position: relative;
+}
+
+div.rectangle{
+    width: 720px;
+    height: 500px;
+    margin: 50px;
+    background-color: rgba(0, 0, 255, 0.486);
+    margin-top: 40px;
+    padding: 30px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius:70px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    position: absolute;
+    
+}
+
+div.circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 20px solid white;
+    background-color: black;
+    position: absolute;
+
+}
+
+div#circle1{
+    left: 18%;
+    bottom: 80%;
+}
+div#circle2{
+    right: 50%;
+    bottom: 80%;
+}
+div#line2{
+    width: 100px;
+    height: 5px;
+    background-color: gray;
+    bottom: 90%;
+    position: absolute;
+    left: 18%;
+}
+
+div#line1{
+ width: 480px;
+ height: 10px;
+ position: absolute;
+ left: 15%;
+ bottom: 70%;
+ 
+}
+div#line2{
+    width:100px ;
+    height: 5px;
+    background-color:gray;
+    position:absolute;
+    bottom: 90%;
+    right: 30%;
+    }
+
+div#line3{
+    width: 100px;
+    height: 5px;
+    background-color: gray;
+    position: absolute;
+    bottom: 90%;
+    right: 50%;
+}
+
+div.ear{
+    width: 50px;
+    height:50px;
+    background-color: gray;
+    border-radius: 50%;
+}
+div#ear1{
+    position: absolute;
+    top:    3%;
+    left: 2%;
+}
+div#ear2{
+    position: absolute;
+    top: 3%;
+    right: 35%;
+}
+
+div.smile{
+    width: 120px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    border-bottom: 15px solid salmon;
+    position: absolute;
+    bottom: 60%;
+    left: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

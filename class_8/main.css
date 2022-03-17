@@ -1,0 +1,82 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+/**comment**/
+
+div.container{
+    margin: 20px;
+    margin-top: 20px;
+    position: relative;}
+div.rectangle{
+    width: 720px;
+    height: 300px; 
+    /* margin: 20px auto; */
+    margin-top: 60px;
+    border: 2px dashed black;
+    padding: 30px;
+    position:absolute;
+    
+}
+
+
+
+    div.circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    border: 20px solid lightcoral;
+    position: absolute;
+    top: 10%; }
+
+div#circle1{
+    left:30%;
+} 
+
+div#circle2{
+    right: 30%;
+}
+
+div.line{
+    width:180px;
+    height: 10px;
+    background-color: brown;
+    position: absolute;
+    top: 40%;
+    left: 41%;}
+
+div.curve{
+     border-bottom-left-radius: 40px;
+     border-bottom-right-radius: 40px;
+     border: 5px dotted darkorchid;
+     background-color: lightslategray;
+     height: 50px;
+     width: 200px;
+     }
+
+div.opencircle{
+    border-radius: 50%;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-bottom: 10px solid rebeccapurple;
+    position: absolute;
+    top: 50%;
+    left: 41%;
+}
+div.circle2{
+    border: none;
+    border-bottom: 3px dotted greenyellow;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.purple{
+    background-color: purple;
+}

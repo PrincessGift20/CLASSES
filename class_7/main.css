@@ -1,0 +1,26 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /**comment**/
+    
+}
+p.p1{
+    background-color: grey;
+    padding: 10px; margin: 10px; 
+    border: 3px dotted green;
+    width: 500px;
+}
+
+
+     
+p.p2{
+    background-color: blue;
+    padding: 10px; margin: 10px; 
+    border: 3px dotted red;
+    box-sizing: border-box;
+    width:500px ;
+    
+}
+a#anchor1{display: inline; width: 100px;}
+a#anchor2{display: inline-block; width: 200px;}
+p#p2{display: inline;}
